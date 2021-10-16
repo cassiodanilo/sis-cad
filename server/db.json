@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$Z3f20TGeHpU.KYMPjBixguRmscv6gCHEAlhp9Pj9mhwgeTPX8vKFC",
+      "id": 1
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "Cássio Cardoso",
+      "telefone": "(11) 11111-1111",
+      "nascimento": "21/12/1987",
+      "renda": 1000000,
+      "status": "Ativo",
+      "id": 1
+    }
+  ]
+}

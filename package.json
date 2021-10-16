@@ -1,0 +1,62 @@
+{
+  "name": "sis-cad",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "concurrently --kill-others  \"vue-cli-service serve\" \"node server/server.js\""
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.2.4",
+    "axios": "^0.23.0",
+    "core-js": "^3.6.5",
+    "v-mask": "^2.3.0",
+    "vee-validate": "^3.4.13",
+    "vue": "^2.6.14",
+    "vue-currency-input": "1.22.2",
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.14",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "concurrently": "^6.3.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.3",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-console": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
