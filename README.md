@@ -1,4 +1,4 @@
-# cad-mp
+# sis-cad
 
 ## Project setup
 ```
